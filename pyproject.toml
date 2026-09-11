@@ -1,0 +1,15 @@
+[project]
+name = "tasksphere"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "alembic>=1.16.5",
+    "fastapi[standard]>=0.128.8",
+    "httpx>=0.28.1",
+    "passlib[bcrypt]>=1.7.4",
+    "pydantic-settings>=2.11.0",
+    "pyjwt>=2.13.0",
+    "pytest>=8.4.2",
+    "python-multipart>=0.0.20",
+    "sqlalchemy>=2.0.52",
+]

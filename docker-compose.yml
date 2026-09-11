@@ -1,0 +1,10 @@
+services:
+  fastapi:
+    build: .
+    image: tasksphere:1.0
+    container_name: tasksphere_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    restart: always
